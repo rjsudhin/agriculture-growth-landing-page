@@ -81,3 +81,33 @@ header .container .navbar ul {
 }
 /* header header */
 
+
+header .container .heading-information {
+  border: 1px solid green;
+  align-self: center;
+  padding: 3.5rem 5.5rem;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+
+}
+
+header .container .heading-information .top-head {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+header .container .heading-information .main-heading {
+  font-size: clamp(40px, 20vw, 200px);
+  font-weight: bold;
+  font-family: Outfit, sans-serif;
+  text-shadow: 5px 5px 5px #0a0a0a;
+}
+
+header .container .heading-information .description {
+  color: #ffffff9a;
+  font-size: 1rem;
+  text-align: center;
+}
+
