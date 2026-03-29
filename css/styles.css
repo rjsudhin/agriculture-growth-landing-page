@@ -46,6 +46,7 @@ header .container .navbar {
   display: flex;
   padding: .5rem 1rem;
   color: #fff;
+  align-items: center;
 }
 
 header .container .navbar ul {
@@ -53,6 +54,7 @@ header .container .navbar ul {
   margin-left: auto;
   display: flex;
   gap: 1.5rem;
+  align-items: center;
 }
 
 .navbar ul li{
