@@ -44,12 +44,20 @@ header .container {
   justify-content: space-between;
 }
 
+/* nav-bar */
 header .container .navbar {
   display: flex;
-  padding: .5rem 1rem;
+  padding: .8rem 1rem;
   color: #fff;
   align-items: center;
 }
+
+/* page logo */
+header .container .navbar .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+/* page logo */
 
 header .container .navbar ul {
   list-style: none;
@@ -79,6 +87,8 @@ header .container .navbar ul {
   color: #252525;
   cursor: pointer;
 }
+
+/* navbar */
 
 
 header .container .heading-information {
