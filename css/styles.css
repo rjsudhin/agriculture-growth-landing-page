@@ -90,6 +90,32 @@ header .container .navbar ul {
 
 /* navbar */
 
+/* hamburger */
+@media (max-width: 650px) {
+
+  header .container .navbar {
+    justify-content: space-between;
+  }
+
+  header .container .navbar ul {
+    display: none;
+  }
+
+  header .container .navbar .hamburger {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+
+  header .container .navbar .hamburger span {
+    width: 20px;
+    border-bottom: 2px solid white;
+  }
+  
+}
+/* hamburger */
+
+
 
 header .container .heading-information {
   align-self: center;
