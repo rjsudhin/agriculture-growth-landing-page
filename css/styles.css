@@ -79,7 +79,6 @@ header .container .navbar ul {
   color: #252525;
   cursor: pointer;
 }
-/* header header */
 
 
 header .container .heading-information {
@@ -200,3 +199,5 @@ header .container .side-actions .right-side-action {
     text-shadow: 1px 1px 1px #252525;
   }
 }
+
+/* header header */
