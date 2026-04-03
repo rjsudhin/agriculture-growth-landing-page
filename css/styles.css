@@ -138,7 +138,7 @@ header .container .side-actions .left-side-action {
 
 header .container .side-actions .left-side-action .header-plants-info-bar {
   background-color: #ffffff18;
-  padding: 1rem;
+  padding: 2rem 1rem;
   backdrop-filter: blur(20px);
   border-radius: 2rem;
   display: flex;
@@ -191,6 +191,10 @@ header .container .side-actions .right-side-action {
     color: #ffffffb7;
     font-size: clamp(40px, 5vw, 60px);
     font-weight: lighter;
+  }
+
+  .slide-anchor-bottom-link {
+    font-size: 2rem;
   }
 
   button.shop-tropical-plants-btn {
@@ -261,6 +265,10 @@ header .container .side-actions .right-side-action {
 
   header .container .side-actions .left-side-action .slide-vertical-menu {
     flex-direction: row;
+  }
+
+  header .container .side-actions .right-side-action {
+    flex: unset;
   }
   
 }
