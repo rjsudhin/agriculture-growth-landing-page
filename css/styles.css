@@ -14,19 +14,15 @@ body {
   width: 100%;
   min-height: 100vh;
   background-color: #fff;
-  padding: .5rem;
+  padding: 0 1rem;
 }
 
-img {
-  width: 200px;
-  height: auto;
-}
 
 /* header header */
 header {
   width: 100%;
   max-width: 1110px;
-  margin: .2rem auto;
+  margin: 1rem auto;
   background-image: url('../images/stocksnap-leafs.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -39,13 +35,13 @@ header .container {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
   min-height: 100vh;
   justify-content: space-between;
 }
 
 /* nav-bar */
 header .container .navbar {
+  width: 100%;
   display: flex;
   padding: .8rem 1rem;
   color: #fff;
@@ -90,34 +86,12 @@ header .container .navbar ul {
 
 /* navbar */
 
-/* hamburger */
-@media (max-width: 650px) {
 
-  header .container .navbar {
-    justify-content: space-between;
-  }
-
-  header .container .navbar ul {
-    display: none;
-  }
-
-  header .container .navbar .hamburger {
-    display: flex;
-    gap: 5px;
-    flex-direction: column;
-  }
-
-  header .container .navbar .hamburger span {
-    width: 20px;
-    border-bottom: 2px solid white;
-  }
-  
-}
-/* hamburger */
 
 
 
 header .container .heading-information {
+  width: 100%;
   align-self: center;
   padding: 3.5rem 5.5rem;
   display: flex;
@@ -133,7 +107,7 @@ header .container .heading-information .top-head {
 }
 
 header .container .heading-information .main-heading {
-  font-size: clamp(40px, 20vw, 200px);
+  font-size: clamp(30px, 20vw, 200px);
   font-weight: bold;
   text-align: center;
   font-family: Outfit, sans-serif;
@@ -148,16 +122,20 @@ header .container .heading-information .description {
 
 
 header .container .side-actions {
+  width: 100%;
+  border: 2px solid green;
   display: flex;
+  gap: 1rem;
   flex-wrap: wrap;
-  padding: 1rem 1.5rem;
 }
+
 
 header .container .side-actions .left-side-action {
   display: flex;
   min-height: 200px;
   gap: 2px;
   flex: 2 1 50%;
+  border: 2px solid blue;
 }
 
 header .container .side-actions .left-side-action .header-plants-info-bar {
@@ -168,7 +146,7 @@ header .container .side-actions .left-side-action .header-plants-info-bar {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 3 1 120px;
+  flex: 3 91 120px;
   min-width: 250px;
   
   .bold-title {
@@ -184,10 +162,9 @@ header .container .side-actions .left-side-action .header-plants-info-bar {
   }
 }
 
-header .container .side-actions .left-side-action .slide-vertical-menu {
+/* header .container .side-actions .left-side-action .slide-vertical-menu {
   display: flex;
   flex-direction: column;
-  position: relative;
   gap: 1rem;
   padding: 1rem;
   justify-content: center;
@@ -196,17 +173,18 @@ header .container .side-actions .left-side-action .slide-vertical-menu {
   border-radius: 2rem;
   backdrop-filter: blur(20px);
   flex: 1 1 50px;
+  max-width: 50px;
   img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
   }
 
-}
+} */
 
 
 header .container .side-actions .right-side-action {
-  flex: 2 1 50%;
+  border: 2px solid gold;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -237,3 +215,52 @@ header .container .side-actions .right-side-action {
 }
 
 /* header header */
+
+
+@media only screen and (max-width: 650px) {
+  
+  /* hamburger */
+  body {
+    padding: 1;
+  }
+
+  header .container .navbar {
+    justify-content: space-between;
+  }
+
+  header .container .navbar ul {
+    display: none;
+  }
+
+  header .container .navbar .hamburger {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+
+  header .container .navbar .hamburger span {
+    width: 20px;
+    border-bottom: 2px solid white;
+  }
+  /* hamburger */
+
+  header .container .heading-information .main-heading {
+  }
+
+  header .side-actions .left-side-action {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  header .side-actions .left-side-action .slide-vertical-menu {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  header .side-actions .left-side-action .slide-vertical-menu img{
+    /* display: none; */
+    /* display: none; */
+
+  }
+
+}
