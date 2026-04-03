@@ -240,6 +240,12 @@ header .container .side-actions .right-side-action {
   }
   /* hamburger */
 
+  header .container .heading-information {
+    border: 1px solid brown;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   header .container .side-actions {
     background-color: gray;
