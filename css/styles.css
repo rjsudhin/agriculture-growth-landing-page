@@ -14,7 +14,6 @@ body {
   width: 100%;
   min-height: 100vh;
   background-color: #fff;
-  padding: 0 1rem;
 }
 
 
@@ -170,7 +169,7 @@ header .container .side-actions .left-side-action .slide-vertical-menu {
   align-items: center;
   padding: 1rem;
   gap: .5rem;
-  flex: 1 0 25px;
+  flex: 1 1 25px;
   img {
     width: 60px;
     height: 60px;
@@ -241,5 +240,21 @@ header .container .side-actions .right-side-action {
   }
   /* hamburger */
 
+
+  header .container .side-actions {
+    background-color: gray;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  header .container .side-actions .left-side-action {
+    flex: unset;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  header .container .side-actions .left-side-action .slide-vertical-menu {
+    flex-direction: row;
+  }
   
 }
