@@ -217,6 +217,28 @@ header .container .side-actions .right-side-action {
 
 /* header header */
 
+/* info-section */
+section.info-section {
+  background-color: blue;
+  width: 100%;
+  max-width: 1110px;
+  margin: 1rem auto;
+
+}
+
+section.info-section .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid green;
+}
+
+
+
+
+
+/* info-section */
+
 
 @media only screen and (max-width: 650px) {
   
