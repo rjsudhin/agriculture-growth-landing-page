@@ -46,6 +46,7 @@ header .container .navbar {
   padding: .8rem 1rem;
   color: #fff;
   align-items: center;
+  justify-content: space-between;
 }
 
 /* page logo */
@@ -62,6 +63,23 @@ header .container .navbar ul {
   gap: 1.5rem;
   align-items: center;
 }
+
+/* hamburger menu */
+header .container .navbar ul.active {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1rem;
+  background: rgba(250, 247, 247, 0.137);
+  backdrop-filter: blur(10px);
+  width: 50vw;
+  min-height: 50vh;
+  position: absolute;
+  top: 60px;
+  right: 30px;
+}
+/* hamburger menu */
+
 
 .navbar ul li{
   background-color: #ffffff33;
