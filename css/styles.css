@@ -240,24 +240,34 @@ section.info-section .container .first-info-parent {
   padding-top: 1.5rem;
 }
 
+section.info-section .container .first-info-parent .left-info .info-container .info-heading {
+  color: #252525;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+section.info-section .container .first-info-parent .left-info .info-container .info-description {
+  font-size: 1.2rem;
+  color: #252525ce;
+}
+
+
 section.info-section .container .first-info-parent .left-info,
 section.info-section .container .first-info-parent .image-container, 
 section.info-section .container .first-info-parent .right-info {
   padding: 2rem;
   flex: 1 1 120px;
-  min-width: 250px;
-  min-height: 180px;
+  min-width: 230px;
+  min-height: 160px;
   text-align: center;
 } 
 
 
 
-section.info-section .container .first-info-parent .left-info {
-
-}
-
 section.info-section .container .first-info-parent .image-container {
   padding: unset;
+  border-radius: 1rem;
+  margin: 1rem 0;
   img {
     width: 100%;
     min-height: 100%;
@@ -269,10 +279,10 @@ section.info-section .container .first-info-parent .image-container {
   }
 }
 
-section.info-section .container .first-info-parent .right-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+section.info-section .container .first-info-parent .right-info {  
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #252525ce;
 }
 
 
