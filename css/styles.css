@@ -286,6 +286,38 @@ section.info-section .container .first-info-parent .right-info {
 }
 
 
+section.info-section .container .second-info-parent {
+  padding: 0 0.5rem;
+  margin: 2.5rem 0;
+  display: flex;
+  .left-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .right-controls {
+    margin-left: auto;
+  }
+
+  button {
+    max-width: 100%;
+    width: 120px;
+    padding: .5rem 0;
+    border-radius: .8rem;
+    border: none;
+    background-color: #fff;
+    font-family: inherit;
+    font-size: 0.9rem;
+    box-shadow: 1px 1px 1px 1px #252525ce;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: #bee9b8;
+  }
+}
+
+
 
 
 
