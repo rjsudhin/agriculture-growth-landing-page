@@ -218,6 +218,7 @@ header .container .side-actions .right-side-action {
 
 /* info-section */
 section.info-section {
+  font-family: Outfit, sans-serif;
   width: 100%;
   max-width: 1110px;
   margin: 1rem auto;
