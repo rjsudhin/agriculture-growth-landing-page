@@ -5,6 +5,13 @@ const hamburgerMenu = document.querySelector('.hamburger-menu')
 
 // configure hamburger menu clicks
 hamburger.addEventListener('click', (e) => {
+  console.log('click')
+  if (hamburger.classList.contains('x')) {
+    hamburger.classList.remove('x')
+  } else {
+    hamburger.classList.add('x')
+  }
+  
   if (hamburgerMenu.classList.contains('active')) {
     hamburgerMenu.classList.remove('active')
   } else {
