@@ -350,6 +350,10 @@ section.plant-section .container {
       font-size: 2rem;
       text-shadow: 1px 1px 1px #252525;
     }
+
+    .plant-info {
+      font-size: clamp(0.9rem, 2vw, 1.1rem);
+    }
   }
 
   > div:nth-child(1) {
@@ -382,6 +386,13 @@ section.plant-section .container {
       color: #ffffff;
       border: none;
       border-radius: .8rem;
+      i {
+        font-weight: bold;
+        background-color: #bee9b841;
+        font-size: 1rem;
+        margin-right: .2rem;
+        border-radius: 50%;
+      }
     }
     
   }
