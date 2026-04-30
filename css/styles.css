@@ -399,9 +399,50 @@ section.plant-section .container {
 
 }
 
-
-
 /* plant section */
+
+/* Article Section */
+article.plant-article {
+  font-family: Outfit, sans-serif;
+  width: 100%;
+  max-width: 1110px;
+  margin: 2rem auto;
+}
+
+article.plant-article .container {
+  width: 100%;
+}
+
+article.plant-article .container .article-info-headings {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .article-info-headings .left-side,
+.container .article-info-headings .right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 250px;
+  padding: 1rem;
+}
+
+.container .article-info-headings .left-side .article-heading {
+  color: #252525;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  text-align: center;
+}
+
+.container .article-info-headings .right-side .article-description {
+  color: #252525;
+  font-size: clamp(1rem, 2.6vw, 1.2rem);
+}
+
+/* Article Section */
+
 
 @media only screen and (max-width: 650px) {
   
