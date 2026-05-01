@@ -441,6 +441,65 @@ article.plant-article .container .article-info-headings {
   font-size: clamp(1rem, 2.6vw, 1.2rem);
 }
 
+/* Article info card containers | cards */
+.container .article-info-cards-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
+  .article-card {
+    flex: 1 1 300px;
+    padding: 0.5rem;
+    min-height: 380px;
+    border-radius: .5rem;
+    background-color: #ffff;
+    box-shadow: 6px 4px 12px 0px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 6px 4px 12px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 6px 4px 12px 0px rgba(0,0,0,0.57);
+    .card-image {
+      border-radius: inherit;
+      width: 100%;
+      height: 70%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 1rem;
+    }
+    
+    .card-info-footer {
+      position: relative;
+    }
+
+    .card-info-footer button {
+      cursor: pointer;
+      background-color: #252525;
+      color: #fff;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: none;
+      font-size: 1rem;
+      position: absolute;
+      right: 10px;
+      bottom: 2px;
+    }
+  }
+}
+
+.article-card:nth-child(1) .card-image {
+  background-image: url('../images/wal_172619-leaves.jpg');
+}
+
+.article-card:nth-child(2) .card-image {
+  background-image: url('../images/u_sehl6l47gs-nature.jpg');
+}
+
+.article-card:nth-child(3) .card-image {
+  background-image: url('../images/stocksnap-leafs.jpg');
+}
+/* Article info card containers | cards */
+
 /* Article Section */
 
 
