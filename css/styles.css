@@ -469,6 +469,20 @@ article.plant-article .container .article-info-headings {
     
     .card-info-footer {
       position: relative;
+      .card-title {
+        color: #252525;
+        font-size: clamp(1.2rem, 2.5vw, 1.7rem);
+      
+      }
+      .title-description {
+        font-size: clam(0.8rem, 3vw, 1.2rem);
+        color: #252525c4;
+      }
+      .card-info-prize {
+        font-size: clamp(0.5rem, 3vw, 1rem);
+        font-weight: bold;
+        color: #252525;
+      }
     }
 
     .card-info-footer button {
