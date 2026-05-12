@@ -517,6 +517,61 @@ article.plant-article .container .article-info-headings {
 /* Article Section */
 
 
+/* Collection Section */
+section.collection-section {
+  width: 100%;
+  max-width: 1110px;
+  margin: 2rem auto;
+}
+
+section.collection-section .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* collection-top-section */
+.container .collection-top-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  div {
+    padding: 1rem;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div:nth-child(1) {
+    flex: 2 1 250px;
+  }
+
+  div:nth-child(2) {
+    flex: 1 1 250px;
+  }
+
+}
+
+.container .collection-top-section .collection-left .left-description {
+  color: #252525;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: bold;
+}
+
+.container .collection-top-section .collection-right .right-description{
+  font-size: clamp(1.4rem, 2vw, 2.3rem);
+  font-weight: bold;
+}
+/* collection-top-section */
+
+
+
+
+/* Collection Section */
+
+
 @media only screen and (max-width: 650px) {
   
   /* hamburger */

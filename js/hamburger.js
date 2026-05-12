@@ -1,5 +1,8 @@
 const hamburger = document.querySelector('.hamburger')
 const hamburgerMenu = document.querySelector('.hamburger-menu')
+// reset button 
+const resetButton = document.querySelector('button')
+
 
 
 
