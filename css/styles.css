@@ -568,6 +568,62 @@ section.collection-section .container {
 }
 /* collection-top-section */
 
+/* collection-inner-gallery */
+.container .collection-inner-gallery {
+  border: 2px solid blue;
+  width: 100%;
+  .inner-gallery-top {
+    border: 2px solid orange;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    > div {
+      padding: 1rem;
+      min-height: 250px;
+      border-radius: .8rem;
+    }
+
+    > div:nth-child(1) {
+      background-color: green;
+      flex: 4 1 250px;
+    }
+
+    > div:nth-child(2) {
+      background-color: skyblue;
+      flex: 1.5 1 250px;
+    }
+  }
+
+  .inner-gallery-bottom {
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+    > div {
+      padding: 1rem;
+      min-height: 250px;
+      border-radius: .8rem;
+    }
+
+    > div:nth-child(1) {
+      background-color: violet;
+      flex: 1.5 1 250px
+    }
+
+    > div:nth-child(2) {
+      background-color: blueviolet;
+      flex: 4 1 250px
+    }
+  }
+
+}
+
+
+/* collection-inner-gallery */
 
 
 
