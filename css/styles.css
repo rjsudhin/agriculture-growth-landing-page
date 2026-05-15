@@ -570,30 +570,85 @@ section.collection-section .container {
 
 /* collection-inner-gallery */
 .container .collection-inner-gallery {
-  border: 2px solid blue;
   width: 100%;
   .inner-gallery-top {
-    border: 2px solid orange;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 1rem;
     > div {
       padding: 1rem;
-      min-height: 250px;
+      min-height: 300px;
       border-radius: .8rem;
+      background-position: center;
+      background-size: cover;
     }
 
-    > div:nth-child(1) {
+    > div.long-card {
       background-color: green;
-      flex: 4 1 250px;
+      flex: 4 1 300px;
+      background-image: url('../images/pexels-leaves.jpg');
+      background-position: center;
+      background-size: cover;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .8rem;
+      justify-content: space-between;
+      button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: none;
+        background-color: #dfd8d810;
+        align-self: flex-start;
+        backdrop-filter: blur(1rem);
+        color: white;
+      }
+      button:hover {
+        cursor: pointer;
+        backdrop-filter: unset;
+      }
+      .inner-contents {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        min-height: 150px;
+        border-radius: .5rem;
+        padding: .8rem;
+        background-color: #dfd8d810;
+        backdrop-filter: blur(1rem);
+        color: #d1ebcd;
+      }
     }
 
     > div:nth-child(2) {
-      background-color: skyblue;
-      flex: 1.5 1 250px;
+      background-image: url('../images/t_watanabe-leafs.jpg');
+      flex: 1.5 1 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      color: #bee9b8;
+      h2 {
+        margin-bottom: 2rem;
+      }
+      button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: none;
+        background-color: #dfd8d810;
+        align-self: flex-start;
+        backdrop-filter: blur(1rem);
+        color: white;
+      }
+      button:hover {
+        cursor: pointer;
+        backdrop-filter: unset;
+      }
     }
+
   }
 
   .inner-gallery-bottom {
@@ -618,6 +673,8 @@ section.collection-section .container {
       background-color: blueviolet;
       flex: 4 1 250px
     }
+
+    
   }
 
 }
