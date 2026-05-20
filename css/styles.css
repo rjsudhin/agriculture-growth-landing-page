@@ -23,7 +23,7 @@ header {
   width: 100%;
   max-width: 1110px;
   margin: .5rem auto;
-  background-image: url('../images/wyxina-autumn.jpg');
+  background-image: url('../images/ignartonosbg-green-leaves.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -522,7 +522,7 @@ section.collection-section {
   font-family: Outfit, sans-serif;
   width: 100%;
   max-width: 1110px;
-  margin: 2rem auto;
+  margin: 2.5rem auto;
 }
 
 section.collection-section .container {
