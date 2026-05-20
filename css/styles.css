@@ -740,13 +740,17 @@ section.collection-section .container {
   }
 
 }
-
-
 /* collection-inner-gallery */
-
-
-
 /* Collection Section */
+
+
+/*Good Section*/
+section.good-section {
+  width: 100%;
+  max-width: 1110px;
+  margin: 2rem auto;
+} 
+/*Good Section*/ 
 
 
 @media only screen and (max-width: 650px) {
