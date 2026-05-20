@@ -603,7 +603,7 @@ section.collection-section .container {
         border-radius: 50%;
         border: none;
         background-color: #dfd8d810;
-        align-self: flex-start;
+        align-self: flex-end;
         backdrop-filter: blur(1rem);
         color: white;
       }
@@ -640,7 +640,7 @@ section.collection-section .container {
         border-radius: 50%;
         border: none;
         background-color: #dfd8d810;
-        align-self: flex-start;
+        align-self: flex-end;
         backdrop-filter: blur(1rem);
         color: white;
       }
@@ -676,7 +676,7 @@ section.collection-section .container {
         border-radius: 50%;
         border: none;
         background-color: #dfd8d810;
-        align-self: flex-start;
+        align-self: flex-end;
         backdrop-filter: blur(1rem);
         color: white;
       }
@@ -716,7 +716,7 @@ section.collection-section .container {
         border-radius: 50%;
         border: none;
         background-color: #dfd8d810;
-        align-self: flex-start;
+        align-self: flex-end;
         backdrop-filter: blur(1rem);
         color: white;
       }
