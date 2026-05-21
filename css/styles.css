@@ -769,6 +769,18 @@ section.good-section {
         margin: 2.5rem 0;
       }
     }
+
+    .middle-good-section {
+      iframe {
+        width: 100%;
+        max-width: 550px;
+        height: 350px;
+        display: block;
+        margin: 1rem auto;
+        border: none;
+        border-radius: .8rem;
+      }
+    }
   }
 } 
 /*Good Section*/ 
