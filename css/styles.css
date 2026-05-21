@@ -746,9 +746,30 @@ section.collection-section .container {
 
 /*Good Section*/
 section.good-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   max-width: 1110px;
   margin: 2rem auto;
+  font-family: Outfit, sans-serif;
+  .container {
+    width: 100%;
+    .top-good-section {
+      .good-heading {
+        color: #252525;
+        font-size: clamp(1.5rem, 10vw, 3.5rem);
+        text-align: center;
+      }
+      .good-description {
+        font-size: clamp(1rem, 2.5vw, 1.5rem);
+        color: #252525;
+        margin: 2.5rem 0;
+      }
+    }
+  }
 } 
 /*Good Section*/ 
 
